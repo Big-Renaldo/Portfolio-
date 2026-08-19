@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel OTCHE — Développeur Web &amp; Répétiteur en Mathématiques</title>
+<meta name="description" content="Portfolio d'Emmanuel OTCHE : développement web, répétition en mathématiques, community management et création de contenu, basé à Cotonou, Bénin.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-bg" id="gridBg"></div>
+<div class="scanline"></div>
+
+<header class="nav" id="nav">
+  <a href="#top" class="nav-brand"><span class="brand-mark">EO</span><span class="brand-name">Emmanuel<span class="brand-accent">.OTCHE</span></span></a>
+  <nav class="nav-links">
+    <a href="#about">Profil</a>
+    <a href="#services">Services</a>
+    <a href="#experience">Parcours</a>
+    <a href="#projects">Réalisations</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="assets/CV_Emmanuel_OTCHE.pdf" download class="nav-cta">CV <i data-icon="download"></i></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">// Abomey-Calavi, Bénin</p>
+        <h1 class="hero-title">
+          Je construis des <span class="hl-orange">sites web</span>,
+          j'explique les <span class="hl-teal">mathématiques</span>,
+          et je fais vivre des <span class="hl-orange">communautés</span> en ligne.
+        </h1>
+        <p class="hero-sub">Étudiant en sécurité informatique à l'IFRI (UAC) et indépendant depuis 2024 — je conçois des sites sur-mesure, j'accompagne des élèves en maths, et je gère des contenus et réseaux sociaux avec rigueur et créativité.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Discutons de votre projet</a>
+          <a href="assets/CV_Emmanuel_OTCHE.pdf" download class="btn btn-ghost">Télécharger le CV</a>
+        </div>
+      </div>
+
+      <div class="terminal" id="terminal">
+        <div class="terminal-bar">
+          <span class="dot d-red"></span><span class="dot d-amber"></span><span class="dot d-green"></span>
+          <span class="terminal-title">emmanuel@ifri: ~</span>
+        </div>
+        <div class="terminal-body">
+          <div class="term-line"><span class="prompt">$</span> whoami</div>
+          <div class="term-line term-out">emmanuel_otche</div>
+          <div class="term-line"><span class="prompt">$</span> cat role.txt</div>
+          <div class="term-line term-out"><span id="typed"></span><span class="cursor">▌</span></div>
+          <div class="term-line"><span class="prompt">$</span> status --check</div>
+          <div class="term-line term-out"><span class="ok">✓</span> disponible pour nouvelles missions</div>
+          <div class="photo-frame">
+            <img src="assets/photo.jpg" alt="Photo d'Emmanuel OTCHE" onerror="this.parentElement.classList.add('no-photo')">
+            <div class="photo-fallback">Ajoutez<br>assets/photo.jpg</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about">
+    <p class="section-label">01 — Profil</p>
+    <div class="about-grid">
+      <div class="about-lead">
+        <h2>Un profil hybride : technique, pédagogue et créatif.</h2>
+        <p>Je m'appelle Emmanuel OTCHE, aussi connu sous le nom <strong>Renaldo</strong> pour mes activités numériques. Actuellement en 2ème année de Sécurité Informatique à l'IFRI (Université d'Abomey-Calavi), je mets mes compétences techniques au service de trois activités que je mène en parallèle depuis 2024 : le développement web, l'accompagnement scolaire en mathématiques, et la gestion de contenus digitaux.</p>
+        <p>Ce qui me guide : livrer un travail sérieux, tenir mes délais, et rester joignable et réactif — que ce soit pour un client, un élève ou une agence.</p>
+      </div>
+      <ul class="about-facts">
+        <li><span class="fact-k">Formation</span><span class="fact-v">Sécurité Informatique — IFRI / UAC (2ème année)</span></li>
+        <li><span class="fact-k">Basé à</span><span class="fact-v">Abomey-Calavi, Cotonou</span></li>
+        <li><span class="fact-k">Langues</span><span class="fact-v">Français courant, Anglais intermédiaire</span></li>
+        <li><span class="fact-k">Disponibilité</span><span class="fact-v">Semaine et week-ends</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="services" class="section services">
+    <p class="section-label">02 — Services</p>
+    <h2 class="section-title">Ce que je peux faire pour vous</h2>
+    <div class="cards">
+      <article class="card">
+        <div class="card-icon icon-orange"><i data-icon="code"></i></div>
+        <h3>Développement web</h3>
+        <p>Sites vitrines et web-apps sur-mesure : HTML, CSS, JavaScript, back-end solide, design responsive pensé pour tous les écrans.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon icon-teal"><i data-icon="function"></i></div>
+        <h3>Répétition en mathématiques</h3>
+        <p>Cours d'appui et travaux dirigés pour les niveaux Troisième et Terminale, à domicile ou en groupe, avec un vrai suivi de progression.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon icon-orange"><i data-icon="social"></i></div>
+        <h3>Community management</h3>
+        <p>Gestion et animation de comptes TikTok, Instagram et Facebook : ligne éditoriale, publication et interaction avec la communauté.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon icon-teal"><i data-icon="camera"></i></div>
+        <h3>Création de contenu</h3>
+        <p>Tournage et montage de vidéos et visuels pour réseaux sociaux, adaptés au format et au ton de chaque plateforme.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="section experience">
+    <p class="section-label">03 — Parcours</p>
+    <h2 class="section-title">Formation &amp; expériences</h2>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-date">2025 — en cours</div>
+        <div class="tl-content"><h3>Licence Sécurité Informatique</h3><p>IFRI, Université d'Abomey-Calavi — 2ème année</p></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2025 — aujourd'hui</div>
+        <div class="tl-content"><h3>Développeur web &amp; Community manager indépendant</h3><p>Conception de sites web sur-mesure, gestion de réseaux sociaux et création de contenu pour des clients particuliers.</p></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2024 — 2025</div>
+        <div class="tl-content"><h3>Encadreur en mathématiques</h3><p>Travaux dirigés et cours d'appui, niveaux Terminale et Troisième, ainsi que répétitions à domicile.</p></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2025</div>
+        <div class="tl-content"><h3>DUT — Diplôme Universitaire de Technologie</h3><p>Université d'Abomey-Calavi</p></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2022 — 2024</div>
+        <div class="tl-content"><h3>Agent de cabine d'opérations GSM</h3><p>Gestion d'opérations et relation client.</p></div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-date">2024</div>
+        <div class="tl-content"><h3>Baccalauréat Série C</h3><p>Enseignement secondaire général</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects">
+    <p class="section-label">04 — Réalisations</p>
+    <h2 class="section-title">Un aperçu de mon travail</h2>
+    <div class="showcase">
+      <div class="showcase-card">
+        <div class="showcase-icon"><i data-icon="globe"></i></div>
+        <h3>Sites web sur-mesure</h3>
+        <p>Sites responsives conçus de A à Z, du design à l'intégration back-end, pour particuliers et petites structures.</p>
+      </div>
+      <div class="showcase-card">
+        <div class="showcase-icon"><i data-icon="chart"></i></div>
+        <h3>Accompagnement scolaire</h3>
+        <p>Suivi personnalisé en mathématiques, préparation aux examens, exercices et corrections détaillées.</p>
+      </div>
+      <div class="showcase-card">
+        <div class="showcase-icon"><i data-icon="social"></i></div>
+        <h3>Contenus &amp; réseaux sociaux</h3>
+        <p>Production de visuels et vidéos, gestion de calendrier éditorial et animation de communautés en ligne.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="section-label">05 — Contact</p>
+    <h2 class="section-title">Travaillons ensemble</h2>
+    <p class="contact-sub">Une idée de site, un besoin de soutien en maths, ou une mission de community management ? Écrivez-moi, je réponds vite.</p>
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:emmanuelrenaldo1@gmail.com">
+        <i data-icon="mail"></i>
+        <div><span class="c-label">Email</span><span class="c-value">emmanuelrenaldo1@gmail.com</span></div>
+      </a>
+      <a class="contact-card" href="https://wa.me/22901558158097" target="_blank" rel="noopener">
+        <i data-icon="whatsapp"></i>
+        <div><span class="c-label">WhatsApp</span><span class="c-value">+229 01 55 81 58 97</span></div>
+      </a>
+      <a class="contact-card" href="https://facebook.com" target="_blank" rel="noopener">
+        <i data-icon="facebook"></i>
+        <div><span class="c-label">Facebook</span><span class="c-value">Emmanuel Renaldo</span></div>
+      </a>
+      <a class="contact-card" href="assets/CV_Emmanuel_OTCHE.pdf" download>
+        <i data-icon="download"></i>
+        <div><span class="c-label">Document</span><span class="c-value">Télécharger mon CV</span></div>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Emmanuel OTCHE — Cotonou, Bénin</p>
+  <p class="footer-note">Conçu et codé à la main.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
