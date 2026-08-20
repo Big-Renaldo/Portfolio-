@@ -172,7 +172,7 @@ img{max-width:100%;display:block;}
   border-radius:9px;
   overflow:hidden;
   border:1px solid var(--border);
-  aspect-ratio:16/10;
+  aspect-ratio:4/5;
   position:relative;
   background:var(--panel-2);
 }
